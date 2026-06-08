@@ -1,12 +1,13 @@
 body {
-    margin: 0;
-}
-
-.hero {
-    position: relative;
     width: 720px;
     height: 343px;
     margin: 0 auto;
+}
+
+/* Hero styling */
+
+.hero {
+    position: relative;
 }
 
 .hero-img {
@@ -41,4 +42,26 @@ body {
 .hero-text h2 {
     background-color: #F4FF52;
     min-width: 412px;
+}
+
+/* Main styling */
+
+.main-content {
+    background-color: #DAA6B3;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content h1 {
+    margin-top: 0;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
