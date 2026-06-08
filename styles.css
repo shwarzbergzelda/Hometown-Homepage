@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 720px;
+    height: 343px;
+    display: block;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.hero-text h1, 
+.hero-text h2 {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.hero-text h1 {
+    background-color: #F5B841;
+    padding: 5px 1px;
+    margin-bottom: 5px;
+}
+
+.hero-text h2 {
+    background-color: #F4FF52;
+    min-width: 412px;
+}
