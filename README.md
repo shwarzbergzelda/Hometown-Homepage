@@ -40,7 +40,7 @@ Through this project, I practiced:
 
 ## Screenshot
 
-![Crown Heights Homepage](images/crown_heights.webp)
+![Crown Heights Homepage](images/homepage-screenshot.png)
 
 ## Future Improvements
 
