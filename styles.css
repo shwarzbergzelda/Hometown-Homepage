@@ -2,6 +2,12 @@ body {
     width: 720px;
     height: 343px;
     margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
 }
 
 /* Hero styling */
@@ -23,25 +29,24 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: black;
 }
 
 .hero-text h1, 
 .hero-text h2 {
     border-radius: 10px;
     display: inline-block;
-    padding: 3px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .hero-text h1 {
-    background-color: #F5B841;
-    padding: 5px 1px;
+    background-color: #B03153;
     margin-bottom: 5px;
 }
 
 .hero-text h2 {
-    background-color: #F4FF52;
-    min-width: 412px;
+    background-color: #C15975;
+    width: 500px;
 }
 
 /* Main styling */
@@ -54,14 +59,31 @@ body {
 
 .main-content h1 {
     margin-top: 0;
+    font-size: 24px;
 }
 
 .main-container {
     display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.main-container section {
+    flex: 1;
 }
 
 .main-container img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-top: 25px;
+}
+
+.main-container section h2,
+.main-container section h3 {
+    font-size: 16px;
+}
+
+.main-container section h2 {
+    font-weight: bold;
 }
