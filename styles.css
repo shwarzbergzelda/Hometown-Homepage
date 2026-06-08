@@ -87,3 +87,51 @@ h1, h2, h3 {
 .main-container section h2 {
     font-weight: bold;
 }
+
+/* Footer styling */
+
+footer {
+    padding: 20px;
+    background-color: #F5D5E5;
+    height: 343px;
+    display: flex;
+    align-items: center;
+}
+
+.guide-card {
+    height: 225px;
+    display: flex;
+    background-color: #622A51;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 #B03153;
+}
+
+.guide-img {
+    height: 185px;
+}
+
+.guide-text h1,
+.guide-text h3 {
+    font-weight: bold;
+}
+
+.guide-text h1 {
+    font-size: 24px;
+}
+
+.guide-text h2,
+.guide-text h3 {
+    font-size: 16px;
+}
+
+.guide-text h2 {
+    font-style: italic;
+}
+
+.guide-text {
+    flex: 1;
+    padding: 1em;
+}
